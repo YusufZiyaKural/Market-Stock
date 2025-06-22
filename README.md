@@ -1,2 +1,78 @@
-# Market-Stock
-Console-based inventory management program of a supermarket warehouse.
+# 🏪 Supermarket Inventory Management System (Java Console Application)
+
+A **console-based inventory management program** designed to simulate a **supermarket warehouse stock system**. Built using Java, this application allows users to enter, categorize, and view details about incoming products to a warehouse in real time.
+
+## 📌 Features
+
+- Add new products to the warehouse stock.
+- Track product information:
+  - Product name
+  - Category (Meat, Fruit, Vegetable)
+  - Quantity
+  - Unit price
+  - Entry date (real-time)
+- View a list of all entered products.
+- Filter products by category and view total number per category.
+- Console interface for interaction and testing.
+
+## 🧠 Purpose
+
+This application aims to **manage and display the current inventory of a supermarket warehouse** by:
+- Recording product entries,
+- Organizing data by product type,
+- Providing real-time insights into stock levels.
+
+## ⚙️ System Overview
+
+- **Language:** Java
+- **Interface:** Console-based
+- **Architecture:** Object-Oriented with category-based filtering and product management
+- **UML Support:** Design phase includes UML diagrams for structural understanding
+
+## 📂 Project Structure
+
+MarketStock/
+├── src/
+│ └── com/
+│ └── market/
+│ ├── Product.java
+│ ├── Inventory.java
+│ ├── Main.java
+│ └── [other core classes]
+├── .gitignore
+├── README.md
+└── LICENSE
+
+
+## 🚀 How to Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/market-inventory-java.git
+   cd market-inventory-java
+
+2. **Compile the project:**
+javac -d bin src/com/market/*.java
+
+3. **Run the program:**
+java -cp bin com.market.Main
+
+## 📊 Example Use Cases
+1) A manager inputs 100 kg of apples (Fruit) into the system.
+
+2) The system logs the product with entry date and calculates the category total.
+
+3) A request is made to view all products under "Fruit", and the system displays them accordingly.
+
+
+## 👨‍💻 Authors
+
+Developed by:
+
+- Dirsehan Başaran
+
+- İzzet Can Korkmaz
+
+- Yusuf Ziya Kural
+
+- Gökmen Veyisoğlu
