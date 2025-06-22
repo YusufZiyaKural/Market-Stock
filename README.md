@@ -1,15 +1,15 @@
-# 🏪 Supermarket Inventory Management System
+# Supermarket Inventory Management System
 
 A **console-based inventory management program** designed to simulate a **supermarket warehouse stock system**. Built using Java, this application allows users to enter, categorize, and view details about incoming products to a warehouse in real time.
 
-## 🧠 Purpose
+## Purpose
 
 This application aims to **manage and display the current inventory of a supermarket warehouse** by:
 - Recording product entries,
 - Organizing data by product type,
 - Providing real-time insights into stock levels.
 
-## 📌 Features
+## Features
 
 - Add new products to the warehouse stock.
 - Track product information:
@@ -22,7 +22,7 @@ This application aims to **manage and display the current inventory of a superma
 - Filter products by category and view total number per category.
 - Console interface for interaction and testing.
 
-## 📊 Example Use Case
+## Example Use Case
 1) A manager inputs 100 kg of apples (Fruit) into the system.
 
 2) The system logs the product with entry date and calculates the category total.
@@ -31,7 +31,7 @@ This application aims to **manage and display the current inventory of a superma
 
 ![Workflow Diagram](https://github.com/user-attachments/assets/744063ed-37a8-4085-aec2-33ba8eb78b92)
 
-## 🚀 How to Run
+## How to Run
 
 1. **Clone the repository:**
    ```bash
@@ -46,7 +46,7 @@ This application aims to **manage and display the current inventory of a superma
    ```bash
    java -cp bin com.market.Main
 
-## 📂 Project Structure
+## Project Structure
   ````  
   MarketStock/
   ├── src/
@@ -62,7 +62,7 @@ This application aims to **manage and display the current inventory of a superma
   ````
 ![image](https://github.com/user-attachments/assets/014e6335-1d03-46f8-8301-b0d50b4420b4)
 
-## 👨‍💻 Authors
+## Authors
 
 Developed by:
 
