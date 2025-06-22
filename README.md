@@ -15,6 +15,20 @@ A **console-based inventory management program** designed to simulate a **superm
 - Filter products by category and view total number per category.
 - Console interface for interaction and testing.
 
+## 📂 Project Structure
+    ````bash
+    MarketStock/
+    ├── src/
+    │ └── com/
+    │ └── market/
+    │ ├── Product.java
+    │ ├── Inventory.java
+    │ ├── Main.java
+    │ └── [other core classes]
+    ├── .gitignore
+    ├── README.md
+    └── LICENSE
+    
 ## 🧠 Purpose
 
 This application aims to **manage and display the current inventory of a supermarket warehouse** by:
@@ -38,10 +52,12 @@ This application aims to **manage and display the current inventory of a superma
    cd market-inventory-java
 
 2. **Compile the project:**
-javac -d bin src/com/market/*.java
+   ```bash
+   javac -d bin src/com/market/*.java
 
-3. **Run the program:**
-java -cp bin com.market.Main
+4. **Run the program:**
+   ```bash
+   java -cp bin com.market.Main
 
 ## 📊 Example Use Cases
 1) A manager inputs 100 kg of apples (Fruit) into the system.
