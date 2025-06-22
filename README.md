@@ -29,20 +29,6 @@ This application aims to **manage and display the current inventory of a superma
 - **Architecture:** Object-Oriented with category-based filtering and product management
 - **UML Support:** Design phase includes UML diagrams for structural understanding
 
-## 📂 Project Structure
-
-MarketStock/
-├── src/
-│ └── com/
-│ └── market/
-│ ├── Product.java
-│ ├── Inventory.java
-│ ├── Main.java
-│ └── [other core classes]
-├── .gitignore
-├── README.md
-└── LICENSE
-
 
 ## 🚀 How to Run
 
