@@ -16,19 +16,19 @@ A **console-based inventory management program** designed to simulate a **superm
 - Console interface for interaction and testing.
 
 ## 📂 Project Structure
-    ````bash
-    MarketStock/
-    ├── src/
-    │ └── com/
-    │ └── market/
-    │ ├── Product.java
-    │ ├── Inventory.java
-    │ ├── Main.java
-    │ └── [other core classes]
-    ├── .gitignore
-    ├── README.md
-    └── LICENSE
-    
+  ````  
+  MarketStock/
+  ├── src/
+  │ └── com/
+  │ └── market/
+  │ ├── Product.java
+  │ ├── Inventory.java
+  │ ├── Main.java
+  │ └── [other core classes]
+  ├── .gitignore
+  ├── README.md
+  └── LICENSE
+  ````
 ## 🧠 Purpose
 
 This application aims to **manage and display the current inventory of a supermarket warehouse** by:
