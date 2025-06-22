@@ -22,7 +22,7 @@ This application aims to **manage and display the current inventory of a superma
 - Filter products by category and view total number per category.
 - Console interface for interaction and testing.
 
-## 📊 Example Use Cases
+## 📊 Example Use Case
 1) A manager inputs 100 kg of apples (Fruit) into the system.
 
 2) The system logs the product with entry date and calculates the category total.
