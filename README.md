@@ -29,6 +29,8 @@ A **console-based inventory management program** designed to simulate a **superm
   ├── README.md
   └── LICENSE
   ````
+![image](https://github.com/user-attachments/assets/014e6335-1d03-46f8-8301-b0d50b4420b4)
+
 ## 🧠 Purpose
 
 This application aims to **manage and display the current inventory of a supermarket warehouse** by:
@@ -65,6 +67,8 @@ This application aims to **manage and display the current inventory of a superma
 2) The system logs the product with entry date and calculates the category total.
 
 3) A request is made to view all products under "Fruit", and the system displays them accordingly.
+
+![Workflow Diagram](https://github.com/user-attachments/assets/744063ed-37a8-4085-aec2-33ba8eb78b92)
 
 
 ## 👨‍💻 Authors
