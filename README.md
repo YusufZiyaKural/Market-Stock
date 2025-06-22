@@ -1,4 +1,4 @@
-# 🏪 Supermarket Inventory Management System (Java Console Application)
+# 🏪 Supermarket Inventory Management System
 
 A **console-based inventory management program** designed to simulate a **supermarket warehouse stock system**. Built using Java, this application allows users to enter, categorize, and view details about incoming products to a warehouse in real time.
 
