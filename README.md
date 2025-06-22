@@ -2,6 +2,13 @@
 
 A **console-based inventory management program** designed to simulate a **supermarket warehouse stock system**. Built using Java, this application allows users to enter, categorize, and view details about incoming products to a warehouse in real time.
 
+## 🧠 Purpose
+
+This application aims to **manage and display the current inventory of a supermarket warehouse** by:
+- Recording product entries,
+- Organizing data by product type,
+- Providing real-time insights into stock levels.
+
 ## 📌 Features
 
 - Add new products to the warehouse stock.
@@ -15,36 +22,14 @@ A **console-based inventory management program** designed to simulate a **superm
 - Filter products by category and view total number per category.
 - Console interface for interaction and testing.
 
-## 📂 Project Structure
-  ````  
-  MarketStock/
-  ├── src/
-  │ └── com/
-  │ └── market/
-  │ ├── Product.java
-  │ ├── Inventory.java
-  │ ├── Main.java
-  │ └── [other core classes]
-  ├── .gitignore
-  ├── README.md
-  └── LICENSE
-  ````
-![image](https://github.com/user-attachments/assets/014e6335-1d03-46f8-8301-b0d50b4420b4)
+## 📊 Example Use Cases
+1) A manager inputs 100 kg of apples (Fruit) into the system.
 
-## 🧠 Purpose
+2) The system logs the product with entry date and calculates the category total.
 
-This application aims to **manage and display the current inventory of a supermarket warehouse** by:
-- Recording product entries,
-- Organizing data by product type,
-- Providing real-time insights into stock levels.
+3) A request is made to view all products under "Fruit", and the system displays them accordingly.
 
-## ⚙️ System Overview
-
-- **Language:** Java
-- **Interface:** Console-based
-- **Architecture:** Object-Oriented with category-based filtering and product management
-- **UML Support:** Design phase includes UML diagrams for structural understanding
-
+![Workflow Diagram](https://github.com/user-attachments/assets/744063ed-37a8-4085-aec2-33ba8eb78b92)
 
 ## 🚀 How to Run
 
@@ -61,15 +46,21 @@ This application aims to **manage and display the current inventory of a superma
    ```bash
    java -cp bin com.market.Main
 
-## 📊 Example Use Cases
-1) A manager inputs 100 kg of apples (Fruit) into the system.
-
-2) The system logs the product with entry date and calculates the category total.
-
-3) A request is made to view all products under "Fruit", and the system displays them accordingly.
-
-![Workflow Diagram](https://github.com/user-attachments/assets/744063ed-37a8-4085-aec2-33ba8eb78b92)
-
+## 📂 Project Structure
+  ````  
+  MarketStock/
+  ├── src/
+  │ └── com/
+  │ └── market/
+  │ ├── Product.java
+  │ ├── Inventory.java
+  │ ├── Main.java
+  │ └── [other core classes]
+  ├── .gitignore
+  ├── README.md
+  └── LICENSE
+  ````
+![image](https://github.com/user-attachments/assets/014e6335-1d03-46f8-8301-b0d50b4420b4)
 
 ## 👨‍💻 Authors
 
